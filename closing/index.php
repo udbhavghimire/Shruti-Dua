@@ -1,3 +1,5 @@
+<?php session_start();?>
+
 <!doctype html>
 
 <html lang="en">
@@ -29,8 +31,8 @@
         <nav class="navbar navbar-expand-md navbar-light" id="navbar">
             <div class="container">
                 <a href="/" class="navbar-brand"><img src="../images/dolphin-reality-logo.png" alt="dolphin-reality-logo" class="navbar-brand"></a>
-                <a href="tel:416-723-2111" class="btn call-btn d-block d-md-none btn-sm py-2">
-                    <i class="bi bi-telephone pe-1"></i> 416-723-2111
+                <a href="https://wa.me/14167232111" target="_blank" class="btn call-btn d-block d-md-none btn-sm py-2">
+                    <i class="bi bi-whatsapp pe-1"></i> 416-723-2111
                 </a>
                 <button class="d-block d-md-none btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,12 +43,12 @@
                     <div class="col-12 d-flex justify-content-start justify-content-md-end">
                         <ul class="navbar-nav mb-2 mb-lg-0 align-items-start align-items-md-center">
                             <li class="nav-item">
-                                <a href="../index.html#hero" class="nav-link scrollto" aria-current="page">
+                                <a href="../" class="nav-link scrollto" aria-current="page">
                                 Home
                                 </a>
                             </li>
                             <li class="nav-item px-md-2">
-                                <a class="nav-link scrollto" href="../index.html#projects">Upcoming Projects</a>
+                                <a class="nav-link scrollto" href="../#projects">Upcoming Projects</a>
                             </li>
 
 
@@ -55,14 +57,14 @@
                             </li> -->
 
                             <li class="nav-item px-md-2">
-                                <a class="nav-link scrollto" href="../index.html#gallery">Events & Involvements</a>
+                                <a class="nav-link scrollto" href="../#gallery">Events & Involvements</a>
                             </li>
                             <li class="nav-item px-md-2">
-                                <a class="nav-link scrollto" href="index.html">Closing Cost</a>
+                                <a class="nav-link scrollto" href="./">Closing Cost</a>
                             </li>
                             <li class="nav-item px-md-2 d-none d-md-block">
-                                <a href="tel:416-723-2111" class="btn call-btn fss">
-                                    <i class="bi bi-telephone pe-2"></i> 416-723-2111
+                                <a href="https://wa.me/14167232111" target="_blank" class="btn call-btn fss">
+                                    <i class="bi bi-whatsapp pe-1"></i> 416-723-2111
                                 </a>
                             </li>
                         </ul>

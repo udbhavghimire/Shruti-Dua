@@ -1,3 +1,5 @@
+<?php session_start();?>
+
 <!doctype html>
 <html lang="en">
 
@@ -20,7 +22,7 @@
     <meta name="revisit-after" content="1 days">
     <meta property="og:image" content="https://shrutidua.com/images/shruti-main.png">
 
-
+    <link rel="stylesheet" href="css/silverBox.min.css">
 
     <title>Shruti Dua - Real Estate Agent</title>
 </head>
@@ -30,7 +32,7 @@
         <nav class="navbar navbar-expand-md navbar-light" id="navbar">
             <div class="container">
                 <a href="/" class="navbar-brand"><img src="images/dolphin-reality-logo.png" alt="dolphin-reality-logo" class="navbar-brand"></a>
-                <a href="https://wa.me/14167232111" class="btn call-btn d-block d-md-none btn-sm py-2">
+                <a href="https://wa.me/14167232111" target="_blank" class="btn call-btn d-block d-md-none btn-sm py-2">
                     <i class="bi bi-whatsapp pe-1"></i> 416-723-2111
                 </a>
                 <button class="d-block d-md-none btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +44,7 @@
                     <div class="col-12 d-flex justify-content-start justify-content-md-end">
                         <ul class="navbar-nav mb-2 mb-lg-0 align-items-start align-items-md-center">
                             <li class="nav-item">
-                                <a href="#hero" class="nav-link scrollto" aria-current="page">
+                                <a href="/" class="nav-link scrollto" aria-current="page">
                                 Home
                                 </a>
                             </li>
@@ -59,10 +61,10 @@
                                 <a class="nav-link scrollto" href="#gallery">Events & Involvements</a>
                             </li>
                             <li class="nav-item px-md-2">
-                                <a class="nav-link scrollto" href="closing/index.html">Closing Cost</a>
+                                <a class="nav-link scrollto" href="closing/">Closing Cost</a>
                             </li>
                             <li class="nav-item px-md-2 d-none d-md-block">
-                                <a href="https://wa.me/14167232111" class="btn call-btn fss">
+                                <a href="https://wa.me/14167232111" target="_blank" class="btn call-btn fss">
                                     <i class="bi bi-whatsapp pe-1"></i> 416-723-2111
                                 </a>
 
@@ -83,8 +85,10 @@
                             <span class="d-block main-titlee">Dua <span class="d-inline-flex dot"></span></span>
                         </h1>
                         <h1 class="fs-4 fw-bold pt-3 pt-md-5 mt-5 px-2 px-md-0">Sales Representative - Dolphin Realty Inc.</h1>
-
                         <h3 class="sm-title pt-3 px-2 px-md-0">With over 15 years experience in the corporate Insurance sales industry, I am passionate about working with my clients by comprehending their needs and giving them the right advice.</h3>
+                        <div>
+                            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3NQR6qJYCA1OybV71iuKmTxiaVUy-g45LTaKP1xHKZmmsDRXsTUrXCuq-ofDkzPxdMlN8eOFa6?pli=1" target="_blank" class="btn btn-outline-dark  btn-sm p-2 fs-5 mt-2">Book an appointment</a>
+                        </div>
                     </div>
                     <div class="col-md-6  ">
                         <img src="images/shruti-main.png" class="img-fluid hero-img" alt="Shruti Dua">
@@ -268,7 +272,7 @@
                         <div class="col-md-3"></div>
                         <div class="col-md-6 px-md-5 ">
 
-                            <form action="contactForm.php" method="POST">
+                            <form action="./contactForm.php" method="POST">
                                 <div class="row">
                                     <div class="mb-3 "><input type="text " placeholder="Name " name="name" id="name" class="fields " required></div>
 
@@ -383,6 +387,44 @@
                 e.preventDefault();
             }
         </script>
+
+<script src="js/silverBox.min.js" ></script>
+            
+            <?php
+        if(
+        isset($_SESSION['success'])
+        ){
+            ?>
+    <script type="text/javascript" async>
+       silverBox({
+	title: {
+		text: "Success",
+		alertIcon: "success",
+	},
+	text: "Your Message has been received.\n We'll get back to you soon.",
+});
+    </script>
+    <?php
+            unset($_SESSION['success']);
+        }
+
+        if(
+            isset($_SESSION['error'])
+            ){
+                ?>
+    <script type="text/javascript" async>
+           silverBox({
+	title: {
+		text: "Error",
+		alertIcon: "error",
+	},
+	text: "Your Message has not been received.",
+});
+    </script>
+    <?php
+                unset($_SESSION['error']);
+            }
+    ?>
 </body>
 
 </html>
