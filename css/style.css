@@ -257,15 +257,14 @@
 @media (max-width: 768px) {
     .hero-img {
         display: flex;
-        margin-top: 10rem;
         justify-content: center !important;
+        padding-top: 3rem;
         text-align: center;
         position: relative;
         margin-left: 0px;
     }
     .hero-text {
-        height: 35vh;
-        margin-top: 5rem !important;
+        height: auto;
         margin-bottom: 0;
     }
     .navbar-brand {

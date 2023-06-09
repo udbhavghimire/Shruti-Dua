@@ -12,7 +12,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
     <meta name="title" content="Shruti Dua | Real Estate Agent - Dolphin Realty Inc.">
     <meta name="description" content="With over 15 years experience in the corporate Insurance sales industry, I am passionate about working with my clients by comprehending their needs an">
     <meta name="keywords" content="real estate agent canada, realtor, shruti dua, dolphin reality inc., ">
@@ -78,16 +79,16 @@
     <div class="main pt-5 pt-md-5" id="hero">
         <section class="">
             <div class="container">
-                <div class="row me-0 row-cols-1 row-cols-md-2 d-flex align-items-center pt-">
+                <div class="row me-0 row-cols-1 row-cols-md-2 d-flex align-items-center ">
                     <div class="col-md-6 pt-5 pt-md-0 hero-text d-flex">
-                        <h1 class="main-titlee px-2 px-md-0 fw-bold">
-                            <span class="main-titlee">Shruti</span>
-                            <span class="d-block main-titlee">Dua <span class="d-inline-flex dot"></span></span>
+                        <h1 class="main-titlee px-2 px-md-0 fw-bold  center-sm ">
+                            <span class="main-titlee   ">Shruti</span>
+                            <span class="d-block main-titlee  ">Dua <span class="d-inline-flex dot"></span></span>
                         </h1>
-                        <h1 class="fs-4 fw-bold pt-3 pt-md-5 mt-5 px-2 px-md-0">Sales Representative - Dolphin Realty Inc.</h1>
-                        <h3 class="sm-title pt-3 px-2 px-md-0">With over 15 years experience in the corporate Insurance sales industry, I am passionate about working with my clients by comprehending their needs and giving them the right advice.</h3>
-                        <div>
-                            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3NQR6qJYCA1OybV71iuKmTxiaVUy-g45LTaKP1xHKZmmsDRXsTUrXCuq-ofDkzPxdMlN8eOFa6?pli=1" target="_blank" class="btn btn-outline-dark  btn-sm p-2 fs-5 mt-2">Book an appointment</a>
+                        <h1 class="fs-4 fw-bold pt-3 pt-md-5 mt-5 px-2 px-md-0  center-sm ">Sales Representative - Dolphin Realty Inc.</h1>
+                        <h3 class="sm-title pt-3 px-2 px-md-0  center-sm ">With over 15 years experience in the corporate Insurance sales industry, I am passionate about working with my clients by comprehending their needs and giving them the right advice.</h3>
+                        <div class=" center-sm ">
+                            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3NQR6qJYCA1OybV71iuKmTxiaVUy-g45LTaKP1xHKZmmsDRXsTUrXCuq-ofDkzPxdMlN8eOFa6?pli=1" target="_blank" class="btn btn-outline-dark  btn-sm p-2 fs-5 mt-2  center-sm ">Book an appointment</a>
                         </div>
                     </div>
                     <div class="col-md-6  ">
@@ -95,6 +96,8 @@
 
                     </div>
                 </div>
+            </div>
+            
         </section>
         </div>
 
@@ -102,7 +105,7 @@
 
         <section class="py-5 mt-2" id="projects">
             <div class="container pt-5">
-                <h1 class="fs-2 fw-bold text-center d-flex justify-content-center custom-underline brand-color">Upcoming Projects</h1>
+                <h1 class="fs-2 fw-bold text-center d-flex justify-content-center custom-underline brand-color center-sm">Upcoming Projects</h1>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 justify-content-center g-4 mt-2">
                     <div class="col">
                         <div class="afte-proj">
@@ -146,7 +149,7 @@
 
         <div class=" py-sm-4" id="mortgage"></div>
         <section class=" position-relative py-5">
-            <h1 class="fs-2 fw-bold text-center d-flex justify-content-center custom-underline brand-color pb-2">Mortgage Calculator</h1>
+            <h1 class="fs-2 fw-bold text-center d-flex justify-content-center custom-underline brand-color pb-2 center-sm">Mortgage Calculator</h1>
             <div class="container bg-light  py-5">
                 <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center align-items-center">
                     <div class="col-md-4">
@@ -207,7 +210,7 @@
             <div class="container">
                 <div class="my-md-5 my-5"></div>
                 <div class="pt-md-5 pt-2">
-                    <h1 class="fw-bold fs-1 pb-3  ps-3 ps-md-0 d-flex justify-content-center custom-underline brand-color">
+                    <h1 class="fw-bold fs-1 pb-3  ps-3 ps-md-0 d-flex justify-content-center custom-underline brand-color center-sm">
                         Community events and Involvement
                     </h1>
                     <div>
@@ -259,7 +262,7 @@
                 <div class="pt-5 mt-5">
                     <div class="row mx-0 ">
                         <div class="text-center">
-                            <img src="images/shruti-main.png" class="hero-img-cont" alt="">
+                            <img src="images/shruti-contact.png" class="hero-img-cont" alt="">
                         </div>
                         <h6 class="text-center fs-1 fw-bold pt-3 register"> Contact Me</h6>
                         <div class="registertext px-4 d-flex justify-content-center align-items-center  text-center">
