@@ -8,11 +8,24 @@
 }
 
 .main {
-    background-image: linear-gradient(280deg, #f7c86b61, #ffffff);
+    background-image: linear-gradient(280deg, #FFECF2, #ffffff);
     background-size: cover;
     background-position: center;
     position: relative;
     height: 100%;
+}
+
+.wave {
+    width: 100%;
+    position: relative;
+}
+
+.wave svg {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
 }
 
 .btn:focus {
@@ -39,10 +52,14 @@
 }
 
 .hero-img {
-    height: auto;
+    height: 100%;
     position: absolute;
     margin-left: -50px;
     bottom: 0;
+}
+
+.bi-whatsapp {
+    color: #45C155;
 }
 
 .brand-color {
@@ -275,5 +292,12 @@
     }
     .center-sm {
         text-align: center;
+    }
+    .wave svg {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        bottom: 0 !important;
+        left: 0;
     }
 }

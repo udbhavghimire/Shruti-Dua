@@ -33,7 +33,7 @@
         <nav class="navbar navbar-expand-md navbar-light" id="navbar">
             <div class="container">
                 <a href="/" class="navbar-brand"><img src="images/dolphin-reality-logo.png" alt="dolphin-reality-logo" class="navbar-brand"></a>
-                <a href="https://wa.me/14167232111" target="_blank" class="btn call-btn d-block d-md-none btn-sm py-2">
+                <a href="https://wa.me/14167232111" target="_blank" class="btn btn-outline-dark text-dark d-block d-md-none btn-sm py-2">
                     <i class="bi bi-whatsapp pe-1"></i> 416-723-2111
                 </a>
                 <button class="d-block d-md-none btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,7 +65,7 @@
                                 <a class="nav-link scrollto" href="closing/">Closing Cost</a>
                             </li>
                             <li class="nav-item px-md-2 d-none d-md-block">
-                                <a href="https://wa.me/14167232111" target="_blank" class="btn call-btn fss">
+                                <a href="https://wa.me/14167232111" target="_blank" class="btn btn-outline-dark   fss">
                                     <i class="bi bi-whatsapp pe-1"></i> 416-723-2111
                                 </a>
 
@@ -76,8 +76,9 @@
             </div>
         </nav>
     </div>
-    <div class="main pt-5 pt-md-5" id="hero">
-        <section class="">
+    <div class="main pt-5 pt-md-5 wave" id="hero">
+        <section class="wave">
+        
             <div class="container">
                 <div class="row me-0 row-cols-1 row-cols-md-2 d-flex align-items-center ">
                     <div class="col-md-6 pt-5 pt-md-0 hero-text d-flex">
@@ -93,9 +94,11 @@
                     </div>
                     <div class="col-md-6  ">
                         <img src="images/shruti-main.png" class="img-fluid hero-img" alt="Shruti Dua">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L120,176C240,192,480,224,720,224C960,224,1200,192,1320,176L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
 
                     </div>
                 </div>
+            </div>
             </div>
             
         </section>
